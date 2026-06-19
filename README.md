@@ -15,8 +15,8 @@ Then it coaches you daily — tracking what's working, flagging when to pivot.
 ## Install
 
 ```bash
-git clone <this-repo>
-cd channel-scout-plugin
+git clone https://github.com/DM1195/tableforone-channel-scout.git
+cd tableforone-channel-scout
 ./install.sh
 ```
 
