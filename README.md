@@ -14,13 +14,12 @@ Then it coaches you daily — tracking what's working, flagging when to pivot.
 
 ## Install
 
-```bash
-git clone https://github.com/DM1195/tableforone-channel-scout.git
-cd tableforone-channel-scout
-./install.sh
-```
+Two commands in Claude Code:
 
-That's it. The script copies skill files to `~/.claude/skills/`.
+```
+/plugin marketplace add DM1195/tableforone-channel-scout
+/plugin install channel-scout@tableforone-channel-scout
+```
 
 ## Run
 
