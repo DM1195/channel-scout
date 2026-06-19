@@ -10,7 +10,7 @@ All channel-scout skills run this validation before any other step. If any check
 - [ ] `search_parameters.primary_keywords` is a non-empty list
 - [ ] `~/channel-scout/*/watchlist.md` exists and has at least one entry
 
-Error message: "founder-profile.md is missing required data. Re-run /channel-scout to complete onboarding."
+Error message: "founder-profile.md is missing the Search Parameters section. Re-run /channel-scout to complete onboarding."
 
 ### PREDICT
 - [ ] `founder-profile.md` has `## ICP`, `## Outcome`, `## Search Parameters`
