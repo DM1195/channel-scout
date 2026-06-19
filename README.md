@@ -72,4 +72,4 @@ This only affects runs from inside `~/channel-scout/[company]/` — not your oth
 
 ---
 
-Built with [Table For One](https://oneplease.substack.com) — solo founder distribution, figured out.
+Built by [Table For One](https://oneplease.substack.com) — community for solo founders. [Apply to join](https://tally.so/r/44Gy4k)
