@@ -1,0 +1,12 @@
+{
+  "name": "channel-scout",
+  "description": "Find and validate your best distribution channel as a solo founder. One session, a real answer. Built for Claude Code (Pro or Max). No API key needed.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Durva Mathure"
+  },
+  "homepage": "https://github.com/DM1195/channel-scout",
+  "repository": "https://github.com/DM1195/channel-scout",
+  "license": "MIT",
+  "keywords": ["distribution", "marketing", "solo-founder", "channel-strategy", "kill-criteria"]
+}
