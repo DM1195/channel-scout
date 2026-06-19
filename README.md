@@ -15,8 +15,8 @@ Then it coaches you daily — tracking what's working, flagging when to pivot.
 ## Install
 
 ```bash
-git clone https://github.com/[your-handle]/channel-scout
-cd channel-scout
+git clone <this-repo>
+cd channel-scout-plugin
 ./install.sh
 ```
 
