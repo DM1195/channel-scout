@@ -12,7 +12,8 @@ for skill_dir in "$REPO/skills"/*/; do
   echo "  ✓ $skill_name"
 done
 
-# Copy shared assets into the orchestrator skill directory
+# Copy shared assets into the orchestrator skill directory (rm first to avoid nested dirs on re-run)
+rm -rf "$SKILLS_DIR/channel-scout/schemas" "$SKILLS_DIR/channel-scout/templates"
 cp -r "$REPO/schemas" "$SKILLS_DIR/channel-scout/schemas"
 cp -r "$REPO/templates" "$SKILLS_DIR/channel-scout/templates"
 
