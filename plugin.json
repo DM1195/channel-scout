@@ -1,0 +1,39 @@
+{
+  "name": "channel-scout",
+  "version": "1.0.0",
+  "description": "Find and validate your best distribution channel as a solo founder. One command, one session, a real answer.",
+  "publisher": "oneplease",
+  "homepage": "https://oneplease.substack.com",
+  "skills": [
+    {
+      "name": "channel-scout",
+      "description": "Distribution channel strategy for solo founders. Run once to get your strategy. Resume anytime.",
+      "path": "skills/channel-scout/SKILL.md"
+    },
+    {
+      "name": "channel-scout-coach",
+      "description": "Daily coaching run. Tracks your numbers, updates scorecard, opens dashboard.",
+      "path": "skills/channel-scout-coach/SKILL.md"
+    },
+    {
+      "name": "channel-scout-onboard",
+      "description": "[Internal] Run by channel-scout orchestrator. Do not invoke directly.",
+      "path": "skills/channel-scout-onboard/SKILL.md"
+    },
+    {
+      "name": "channel-scout-scan",
+      "description": "[Internal] Run by channel-scout orchestrator. Do not invoke directly.",
+      "path": "skills/channel-scout-scan/SKILL.md"
+    },
+    {
+      "name": "channel-scout-predict",
+      "description": "[Internal] Run by channel-scout orchestrator. Do not invoke directly.",
+      "path": "skills/channel-scout-predict/SKILL.md"
+    },
+    {
+      "name": "channel-scout-probe",
+      "description": "[Internal] Run by channel-scout orchestrator. Do not invoke directly.",
+      "path": "skills/channel-scout-probe/SKILL.md"
+    }
+  ]
+}
