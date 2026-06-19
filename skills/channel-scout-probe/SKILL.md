@@ -214,7 +214,7 @@ Read the current `~/.claude/settings.json`. Merge the hook into the existing `"h
     "hooks": [
       {
         "type": "command",
-        "command": "bash -c 'PAUSE=$(grep \"pause_until:\" ~/channel-scout/[COMPANY_SLUG]/.state | awk \"{print \\$2}\"); TODAY=$(date +%Y-%m-%d); if [ \"$PAUSE\" = \"null\" ] || [ \"$TODAY\" > \"$PAUSE\" ]; then cd ~/channel-scout/[COMPANY_SLUG] && claude -p \"/channel-scout coach\"; fi'"
+        "command": "bash -c 'PAUSE=$(grep \"pause_until:\" ~/channel-scout/[COMPANY_SLUG]/.state | awk \"{print \\$2}\"); TODAY=$(date +%Y-%m-%d); if [ \"$PAUSE\" = \"null\" ] || [[ \"$TODAY\" > \"$PAUSE\" ]]; then cd ~/channel-scout/[COMPANY_SLUG] && claude -p \"/channel-scout coach\"; fi'"
       }
     ]
   }

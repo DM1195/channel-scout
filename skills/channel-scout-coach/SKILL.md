@@ -206,16 +206,16 @@ Also write a plain-text version to `~/channel-scout/[company]/dashboard.md`:
 **Check file exists before opening:**
 ```bash
 if [ -f ~/channel-scout/[company]/dashboard.html ]; then
-  # macOS:
-  open ~/channel-scout/[company]/dashboard.html
-  # Linux:
-  # xdg-open ~/channel-scout/[company]/dashboard.html
+  OS=$(uname -s)
+  if [ "$OS" = "Darwin" ]; then
+    open ~/channel-scout/[company]/dashboard.html
+  else
+    xdg-open ~/channel-scout/[company]/dashboard.html
+  fi
 else
   echo "Dashboard rendering failed — check Step 8 output."
 fi
 ```
-
-Detect OS with `uname -s`: use `open` on Darwin, `xdg-open` on Linux.
 
 ## Step 10: Post-run prompt
 

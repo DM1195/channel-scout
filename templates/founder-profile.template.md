@@ -31,4 +31,4 @@ timeline:
 hours_per_week: 
 
 ## Search Parameters
-[Added by translation layer — see Task 5]
+[Populated by the translation layer in Step 7 of ONBOARD]
